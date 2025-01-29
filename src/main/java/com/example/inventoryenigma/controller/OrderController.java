@@ -13,6 +13,11 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
+    @GetMapping
+    public String index() {
+        return "index";
+    }
+
     @PostMapping("/process-a")
     public String processOrderA() {
         orderService.processOrder("itemA", "itemB");
