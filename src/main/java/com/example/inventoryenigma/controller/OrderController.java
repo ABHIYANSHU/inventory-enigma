@@ -1,4 +1,4 @@
-package com.example.deadlockdemo.controller;
+package com.example.inventoryenigma.controller;
 
 import com.example.deadlockdemo.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
